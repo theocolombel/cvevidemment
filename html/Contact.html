@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>contact</title>
+  <link rel="stylesheet" href="Beauter/beauter-master/src/beauter.css"/>
+  <link rel="stylesheet" href="style.css">
+
+  <script src="script.js"></script>
+  <meta name="viewport" content="width=device-width"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="viewport" content="width=device-width, minimum-scale=0.25"/>
+  <meta name="viewport" content="width=device-width, maximum-scale=5.0"/>
+</head>
+<body>
+  
+
+    <form action=" https://httpbin.org/get" method="get" id="formulaire">
+        <div id="nom">
+          <label for="name">Nom: </label>
+          <input type="text" name="name" id="name" required>
+        </div>
+        <div class="prenom">
+            <label for="name">Prénom: </label>
+            <input type="text" name="name"  required>
+          </div>
+        <div class="email">
+            <label for="name">E-mail: </label>
+            <input type="email" name="name" id="mail" required  placeholder=" adresse@electronique.com">  
+        
+    
+
+    <h4>Notez le CV</h4>
+    
+    <select name="select" onchange="updated(this)">
+            <option value="1">1/5</option>
+            <option value="2">2/5</option>
+            <option value="3">3/5</option>
+            <option value="3">4/5</option>
+            <option value="3">5/5</option>
+        </select>
+        
+    <h4>Une remarque ?</h4> 
+
+             <TEXTAREA name="nom" rows=8 cols=70></TEXTAREA>
+            
+            
+             <h4>Me recommanderiez-vous ?</h4>
+
+             <label for="non"><INPUT type= "radio" name="oui" value="non" id="non">non</label>
+              <label for="oui"><INPUT type= "radio" name="oui" value="non" id="oui">oui</label>
+                    
+                    </div>
+                    <div class="bouton">
+                      <input type="submit" value="Envoyer!">
+                    </div>
+                    </form>
+
+                    
+
+                    
+
+                   
+                   
+
+              
+</body>
+</html>
